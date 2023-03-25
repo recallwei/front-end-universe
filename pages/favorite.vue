@@ -1,4 +1,4 @@
-<script setup lang='ts'>
+<script setup lang="ts">
 definePageMeta({
   layout: 'default-layout',
   title: 'Front-end Universe'
@@ -8,4 +8,3 @@ definePageMeta({
 <template>
   <Collection />
 </template>
-
