@@ -1,7 +1,4 @@
 <script setup lang="ts">
-import Label from '~/components/Label.vue'
-import allSites from '~/pages/allSites.vue'
-import Collection from '~/pages/Collection.vue'
 import { groupList } from '~/data'
 import { labelList } from '~/data'
 definePageMeta({
@@ -11,9 +8,10 @@ definePageMeta({
 </script>
 
 <template>
-  <div>
-    <Label v-for="current in labelList" :data="current"></Label>
-    <Collection class="mt-6 mb-10"></Collection>
-    <allSites v-for="item in groupList" :data="item"></allSites>
+  <div class="flex flex-col space-y-8">
+    <div class="flex space-x-2">
+      <Label v-for="(item, index) in labelList" :data="item" :key="index" />
+    </div>
+    <Group v-for="(item, index) in groupList" :data="item" :key="index" />
   </div>
 </template>

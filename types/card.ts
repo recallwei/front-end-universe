@@ -6,5 +6,6 @@ export type Card = {
 
 export type Group = {
   title: string
+  src: string
   children: Card[]
 }
