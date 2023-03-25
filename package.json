@@ -1,16 +1,42 @@
 {
+  "name": "front-end-universe",
   "private": true,
+  "version": "0.0.1",
+  "author": {
+    "name": "recallwei",
+    "email": "recall4056@gmail.com",
+    "url": "https://github.com/recallwei"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/recallwei/front-end-universe.git"
+  },
+  "keywords": [
+    "front-end",
+    "resource",
+    "nuxtjs",
+    "typescript"
+  ],
+  "homepage": "https://github.com/recallwesi/front-end-universe#readme",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "prepare": "husky install"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.5.0",
+    "@commitlint/config-conventional": "^17.4.4",
     "@nuxt/content": "^2.5.2",
     "@nuxtjs/tailwindcss": "^6.6.4",
     "daisyui": "^2.51.5",
-    "nuxt": "^3.0.0"
+    "eslint": "^8.36.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "nuxt": "^3.0.0",
+    "prettier": "^2.8.7",
+    "prettier-plugin-tailwindcss": "^0.2.5"
   }
 }
