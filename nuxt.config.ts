@@ -4,6 +4,6 @@ export default defineNuxtConfig({
     preset: 'vercel-edge'
   },
   tailwindcss: {
-    viewer: true
+    viewer: false
   }
 })

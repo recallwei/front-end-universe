@@ -3,3 +3,6 @@ nuxtjs
 daisyui
 pinia
 vercel
+tailwindcss
+recallwei
+commitlint

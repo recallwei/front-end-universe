@@ -5,7 +5,7 @@ const appConfig = useAppConfig()
 
 <template>
   <div class="flex items-center justify-center py-4 px-8">
-    <div class="navbar bg-base-100 rounded-lg shadow-lg px-4">
+    <div class="navbar bg-base-100 rounded-lg px-4 shadow-lg">
       <div class="navbar-start">
         <div class="dropdown">
           <label
@@ -29,7 +29,7 @@ const appConfig = useAppConfig()
           </label>
           <ul
             tabindex="0"
-            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            class="menu menu-compact dropdown-content bg-base-100 rounded-box mt-3 w-52 p-2 shadow"
           >
             <li><a>Menu1</a></li>
             <li><a>Menu2</a></li>
@@ -38,7 +38,7 @@ const appConfig = useAppConfig()
         </div>
       </div>
       <div class="navbar-center">
-        <a class="btn btn-ghost normal-case text-xl">
+        <a class="btn btn-ghost text-xl normal-case">
           <img
             width="36"
             class="mr-2"

@@ -4,7 +4,7 @@ const theme = useTheme()
 
 <template>
   <div
-    class="min-h-screen max-w-screen bg-base-300 relative"
+    class="max-w-screen bg-base-300 relative min-h-screen"
     :data-theme="theme"
   >
     <AppHeader />

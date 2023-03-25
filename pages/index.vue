@@ -1,11 +1,13 @@
 <script setup lang="ts">
 definePageMeta({
-  layout: 'default',
+  layout: 'default-layout',
   title: 'Front-end Universe'
 })
 </script>
 
 <template>
-  <div>Hello World!</div>
-  <div>Hello World!</div>
+  <div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+  </div>
 </template>
