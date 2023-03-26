@@ -2,7 +2,7 @@ import type { BaseCard, BaseCardGroup } from '~/types'
 
 import type { BaseLabel } from '~/types'
 
-const LABEL_SRC_PREFIX = '/_nuxt/assets/icons/label/'
+const LABEL_SRC_PREFIX = '/icons/label/'
 
 const getLabelSrc = (fileName: string) => `${LABEL_SRC_PREFIX}${fileName}.png`
 
@@ -39,7 +39,7 @@ export const labelList: BaseLabel[] = [
   }
 ]
 
-const GROUP_SRC_PREFIX = '/_nuxt/assets/icons/group/'
+const GROUP_SRC_PREFIX = '/icons/group/'
 
 const getGroupSrc = (fileName: string) => `${GROUP_SRC_PREFIX}${fileName}.png`
 

@@ -10,7 +10,7 @@ const props = defineProps<Props>()
   <div>
     <div class="mb-4 flex items-center space-x-2">
       <img
-        :src="props.data.src"
+        :src="useAsset(props.data.src)"
         width="32"
         height="32"
       />
@@ -26,8 +26,8 @@ const props = defineProps<Props>()
       >
         <div class="card-body">
           <h2 class="text-center text-2xl font-bold">{{ item.title }}</h2>
-          <h2 class="card-title border-b-2"></h2>
-          <p class="text-center text-[#6b7280]">{{ item.description }}</p>
+          <h2 class="card-title border-b-2" />
+          <div class="text-center text-[#6b7280]">{{ item.description }}</div>
         </div>
       </NuxtLink>
     </div>
