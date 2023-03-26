@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { groupList, labelList } from '~/data'
+
 definePageMeta({
   layout: 'default-layout',
   title: 'Home'
@@ -8,7 +9,7 @@ definePageMeta({
 
 <template>
   <div class="flex flex-col space-y-8">
-    <div class="flex space-x-2">
+    <div class="flex space-x-3">
       <Label
         v-for="(item, index) in labelList"
         :data="item"

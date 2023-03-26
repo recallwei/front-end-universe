@@ -1,3 +1,1 @@
-export * from './groupList'
-
-export * from './labelList'
+export * from './pageData'
