@@ -7,3 +7,4 @@ tailwindcss
 recallwei
 commitlint
 xicons
+vueuse
