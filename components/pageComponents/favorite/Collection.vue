@@ -1,3 +1,11 @@
+<script setup lang="ts">
+const emit = defineEmits(['addBtn'])
+const addBtn = () => {
+  let params = true
+  emit('addBtn', params)
+}
+</script>
+
 <template>
   <div class="mb-4 flex items-center justify-between">
     <div class="flex items-center space-x-2">
@@ -19,7 +27,10 @@
       </svg>
       <span class="text-2xl">私人收藏</span>
     </div>
-    <button class="btn btn-circle btn-primary">
+    <button
+      class="btn btn-circle btn-primary"
+      @click="addBtn"
+    >
       <svg
         class="h-8 w-8"
         xmlns="http://www.w3.org/2000/svg"
@@ -34,5 +45,3 @@
     </button>
   </div>
 </template>
-
-<script setup lang="ts"></script>
