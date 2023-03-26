@@ -5,5 +5,11 @@ export default defineNuxtConfig({
   },
   tailwindcss: {
     viewer: false
-  }
+  },
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false
+    }
+  ]
 })
