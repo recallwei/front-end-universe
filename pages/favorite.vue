@@ -1,7 +1,11 @@
 <script setup lang="ts">
 definePageMeta({
   layout: 'default-layout',
-  title: 'Front-end Universe'
+  title: 'Favorite'
+})
+
+useHead({
+  title: 'Favorite'
 })
 </script>
 

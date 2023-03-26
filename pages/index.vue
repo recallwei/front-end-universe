@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import { groupList } from '~/data'
-import { labelList } from '~/data'
+import { groupList, labelList } from '~/data'
 definePageMeta({
   layout: 'default-layout',
-  title: 'Front-end Universe'
+  title: 'Home'
 })
 </script>
 

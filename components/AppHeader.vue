@@ -31,9 +31,11 @@ const appConfig = useAppConfig()
             tabindex="0"
             class="menu menu-compact dropdown-content bg-base-100 rounded-box mt-3 w-52 p-2 shadow"
           >
-            <li><a>Menu1</a></li>
-            <li><a>Menu2</a></li>
-            <li><a>Menu3</a></li>
+            <li><NuxtLink to="/favorite">Favorite</NuxtLink></li>
+            <!--
+              <li><NuxtLink>Menu2</NuxtLink></li>
+              <li><NuxtLink>Menu3</NuxtLink></li>
+            -->
           </ul>
         </div>
       </div>
