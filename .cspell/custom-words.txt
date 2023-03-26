@@ -6,3 +6,4 @@ vercel
 tailwindcss
 recallwei
 commitlint
+xicons

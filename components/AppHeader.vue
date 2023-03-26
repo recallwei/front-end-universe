@@ -5,7 +5,7 @@ const appConfig = useAppConfig()
 
 <template>
   <div class="flex items-center justify-center py-4 px-8">
-    <div class="navbar bg-base-100 rounded-lg px-4 shadow-lg">
+    <div class="navbar bg-base-100 rounded-lg px-4 shadow-md">
       <div class="navbar-start">
         <div class="dropdown">
           <label
