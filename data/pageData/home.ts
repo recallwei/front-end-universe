@@ -45,6 +45,28 @@ const getGroupSrc = (fileName: string) => `${GROUP_SRC_PREFIX}${fileName}.png`
 
 export const groupList: BaseCardGroup<BaseCard>[] = [
   {
+    title: 'UI 框架',
+    src: getGroupSrc('ui-framework'),
+    children: [
+      {
+        title: 'Element UI',
+        href: 'https://element-plus.org/zh-CN/'
+      },
+      {
+        title: 'Naive UI',
+        href: 'https://www.naiveui.com/'
+      },
+      {
+        title: 'Ant Design 5 - React',
+        href: 'https://ant.design/'
+      },
+      {
+        title: 'Daisy UI',
+        href: 'https://daisyui.com/'
+      }
+    ]
+  },
+  {
     title: '技术社区',
     src: getGroupSrc('tech-community'),
     children: [
