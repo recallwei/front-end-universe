@@ -113,5 +113,15 @@ export const groupList: BaseCardGroup<BaseCard>[] = [
         href: 'https://www.xicons.org/'
       }
     ]
+  },
+  {
+    title: '软件管理',
+    src: getGroupSrc('icon-site'),
+    children: [
+      {
+        title: 'Semantic Versioning',
+        href: 'https://semver.org/'
+      }
+    ]
   }
 ]
