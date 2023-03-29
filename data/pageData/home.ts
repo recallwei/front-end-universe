@@ -132,6 +132,11 @@ export const groupList: BaseCardGroup<BaseCard>[] = [
         title: 'React Flow',
         description: 'React 流程图',
         href: 'https://reactflow.dev/'
+      },
+      {
+        title: 'Vue Flow',
+        description: 'Vue 流程图',
+        href:"https://vueflow.dev/"
       }
     ]
   }
