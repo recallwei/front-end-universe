@@ -123,5 +123,16 @@ export const groupList: BaseCardGroup<BaseCard>[] = [
         href: 'https://semver.org/'
       }
     ]
+  },
+  {
+    title: '动画相关',
+    src: getGroupSrc('icon-site'),
+    children: [
+      {
+        title: 'React Flow',
+        description: 'React 流程图',
+        href: 'https://reactflow.dev/'
+      }
+    ]
   }
 ]
