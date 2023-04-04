@@ -45,6 +45,28 @@ const getGroupSrc = (fileName: string) => `${GROUP_SRC_PREFIX}${fileName}.png`
 
 export const groupList: BaseCardGroup<BaseCard>[] = [
   {
+    title: 'UI 框架',
+    src: getGroupSrc('ui-framework'),
+    children: [
+      {
+        title: 'Element UI',
+        href: 'https://element-plus.org/zh-CN/'
+      },
+      {
+        title: 'Naive UI',
+        href: 'https://www.naiveui.com/'
+      },
+      {
+        title: 'Ant Design 5 - React',
+        href: 'https://ant.design/'
+      },
+      {
+        title: 'Daisy UI',
+        href: 'https://daisyui.com/'
+      }
+    ]
+  },
+  {
     title: '技术社区',
     src: getGroupSrc('tech-community'),
     children: [
@@ -89,6 +111,37 @@ export const groupList: BaseCardGroup<BaseCard>[] = [
         title: 'xicons',
         description: 'React & Vue 图标库',
         href: 'https://www.xicons.org/'
+      }
+    ]
+  },
+  {
+    title: '软件管理',
+    src: getGroupSrc('icon-site'),
+    children: [
+      {
+        title: 'Semantic Versioning',
+        href: 'https://semver.org/'
+      }
+    ]
+  },
+  {
+    title: '动画相关',
+    src: getGroupSrc('icon-site'),
+    children: [
+      {
+        title: 'React Flow',
+        description: 'React 流程图',
+        href: 'https://reactflow.dev/'
+      },
+      {
+        title: 'Vue Flow',
+        description: 'Vue 流程图',
+        href: 'https://vueflow.dev/'
+      },
+      {
+        title: '中国地图数据',
+        description: '生成用于 ECharts, D3 等图表库的 GeoJSON',
+        href: 'https://geojson.cn/'
       }
     ]
   }
