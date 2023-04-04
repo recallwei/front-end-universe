@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import { useEventListener } from '@vueuse/core'
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="mb-4 flex items-center justify-between">
@@ -23,7 +21,10 @@ import { useEventListener } from '@vueuse/core'
       </svg>
       <span class="text-2xl">私人收藏</span>
     </div>
-    <button class="btn btn-circle btn-primary" @click="$emit('addWeb')">
+    <button
+      class="btn btn-circle btn-primary"
+      @click="$emit('addWeb')"
+    >
       <svg
         class="h-8 w-8"
         xmlns="http://www.w3.org/2000/svg"
