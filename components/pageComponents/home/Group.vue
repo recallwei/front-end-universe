@@ -9,11 +9,7 @@ const props = defineProps<Props>()
 <template>
   <div>
     <div class="mb-4 flex items-center space-x-2">
-      <img
-        :src="useAsset(props.data.src)"
-        width="32"
-        height="32"
-      />
+      <img :src="useAsset(props.data.src)" width="32" height="32" />
       <span class="text-2xl">{{ props.data.title }}</span>
     </div>
     <div class="grid grid-cols-4 justify-items-center gap-8">

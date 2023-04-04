@@ -20,3 +20,14 @@ export interface CustomLabel extends BaseLabel {
   color?: string
   bgColor?: string
 }
+
+export interface control {
+  name: string
+  placeholder: string
+}
+export type Popup<T> = {
+  title: string
+  children: T[]
+  confirm?: string
+  cancel?: string
+}

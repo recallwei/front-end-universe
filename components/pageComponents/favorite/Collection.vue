@@ -1,9 +1,5 @@
 <script setup lang="ts">
-const emit = defineEmits(['addBtn'])
-const addBtn = () => {
-  let params = true
-  emit('addBtn', params)
-}
+import { useEventListener } from '@vueuse/core'
 </script>
 
 <template>
@@ -27,10 +23,7 @@ const addBtn = () => {
       </svg>
       <span class="text-2xl">私人收藏</span>
     </div>
-    <button
-      class="btn btn-circle btn-primary"
-      @click="addBtn"
-    >
+    <button class="btn btn-circle btn-primary" @click="$emit('addWeb')">
       <svg
         class="h-8 w-8"
         xmlns="http://www.w3.org/2000/svg"
