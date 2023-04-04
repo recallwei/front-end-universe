@@ -168,9 +168,7 @@ onMounted(() => {
 <template>
   <Collection @addWeb="() => handleClickAddBtn()" />
   <Popup v-model:state="showDialog">
-    <div
-      class="bg-base-100 fixed left-[50%] top-[50%] z-50 flex w-[500px] translate-y-[-50%] translate-x-[-50%] flex-col items-center space-y-4 rounded-lg p-4"
-    >
+    <div class="flex w-[500px] flex-col items-center space-y-4 p-4">
       <span class="block text-2xl font-bold">添加站点</span>
       <div class="form-control flex flex-col space-y-4">
         <label
