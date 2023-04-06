@@ -149,5 +149,16 @@ export const groupList: BaseCardGroup<BaseCard>[] = [
         href: 'https://mojs.github.io/'
       }
     ]
+  },
+  {
+    title: '工具库',
+    src: getGroupSrc('icon-site'),
+    children: [
+      {
+        title: 'usehooks-ts',
+        description: '',
+        href: 'https://usehooks-ts.com/'
+      }
+    ]
   }
 ]
