@@ -142,6 +142,11 @@ export const groupList: BaseCardGroup<BaseCard>[] = [
         title: '中国地图数据',
         description: '生成用于 ECharts, D3 等图表库的 GeoJSON',
         href: 'https://geojson.cn/'
+      },
+      {
+        title: 'mo.js',
+        description: '',
+        href: 'https://mojs.github.io/'
       }
     ]
   }
