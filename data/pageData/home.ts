@@ -171,5 +171,15 @@ export const groupList: BaseCardGroup<BaseCard>[] = [
         href: 'https://roadmap.sh/'
       }
     ]
+  },
+  {
+    title: 'JavaScript',
+    src: getGroupSrc('icon-site'),
+    children: [
+      {
+        title: 'State Of JavaScript',
+        href: 'https://stateofjs.com/en-us/'
+      }
+    ]
   }
 ]
