@@ -181,5 +181,16 @@ export const groupList: BaseCardGroup<BaseCard>[] = [
         href: 'https://stateofjs.com/en-us/'
       }
     ]
+  },
+  {
+    title: '前端工程化',
+    src: getGroupSrc('icon-site'),
+    children: [
+      {
+        title: 'CSpell',
+        description: '一个拼写检查器',
+        href: 'https://cspell.org/'
+      }
+    ]
   }
 ]
